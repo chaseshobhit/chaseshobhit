@@ -49,20 +49,20 @@
       content="assets/images/social-media-thumbnail.jpg"
     />
     <link rel="icon" href="favicont.ico" type="image/x-icon" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="YOUR_INTEGRITY_HASH" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Linkedin Card End -->
-    <title>Rider Infinity</title>
+    <title>chaseshobhit</title>
   </head>
-
   <body>
+    <canvas id="cursorCanvas"></canvas> <!- **ADDED THIS LINE** -->
     <div id="progress-bar">
       <div class="bar"></div>
     </div>
+<!-- <div class="progress-bar">
+<div class="filled">
 
-    <!-- <div class="progress-bar">
-    <div class="filled">
-
-    </div>
+</div>
+ Use code with caution.
   </div> -->
     <nav class="site-header">
       <div class="nav-logo">
@@ -84,38 +84,52 @@
           <li><a href="#about">About Me</a></li>
           <li><a href="#skill">Skills</a></li>
           <li><a href="#service">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#testimonial">Testimonial</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#testimonial">Testimonial</a></li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
       <!-- <div id="progress-bar"></div> -->
     </nav>
-    <!-- .site-header -->
+<section id="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Hi There,</h1>
+      <h2 class="name">I'm Shobhit Tomar</h2>
+      <div class="container">
+        <h1 class="designation"><span class="auto-type"></span></h1>
+    </div>
+      <a href="#about" class="hero-button">About Me <i class="fas fa-arrow-right"></i></a>
 
-    <section class="banner" data-aos="zoom-in">
-      <div class="banner--content">
-        <h3 class="name">Shobhit Tomar</h3>
-        <div class="container">
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/chaseshobhit/" target="_blank" aria-label="LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/chaseshobhit" target="_blank" aria-label="GitHub Profile"><i class="fab fa-github"></i></a>
+      <a href="#contact" aria-label="Send an Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </div>
+
+    <div class="hero-image">
+      <img src="assets/images/coding-animation.gif" alt="Animated coding illustration">
+    </div>
+  </div>
+  <div class="background-effect"></div>
+</section>
+<!-- .site-header -->
+
+<!-- <section class="banner" data-aos="zoom-in">
+  <div class="banner--content">
+      <h3 class="name">Shobhit Tomar</h3>
+      <div class="container">
           <h1 class="designation"><span class="auto-type"></span></h1>
-        </div>
-        <!-- <div class="container">
-        <h1 class="designation">Developer, Entrepreneur</h1>
-        
-      </div> -->
-        <p class="tagline">Creating a Different World.</p>
-
-        <a href="Shobhit_Resume.pdf" class="btn" target="_blank"
-          >Download Resume</a
-        >
-        <!-- <a href="/cv.txt" target="_blank"> -->
-        <!-- <button>Download CV</button></a> -->
       </div>
-    </section>
+      <p class="tagline">Creating a Different World.</p>
+      <a href="Shobhit_Resume.pdf" class="btn" target="_blank">Download Resume</a>
+  </div>
+ Use code with caution.
+  </section> -->
     <!-- .banner -->
-
-    <!-- 
-
+<!--
+ Use code with caution.
 zoom-in
 zoom-in-up
 zoom-in-down
@@ -125,8 +139,7 @@ zoom-out
 zoom-out-up
 zoom-out-down
 zoom-out-left
-zoom-out-right 
-
+zoom-out-right
 
 top-bottom
 top-center
@@ -169,7 +182,6 @@ flip-down
 flip-left
 flip-right
 
-
 fade
 fade-up
 fade-down
@@ -180,45 +192,63 @@ fade-up-left
 fade-down-right
 fade-down-left
 -->
-    <section class="promo" data-aos="zoom-out-left">
-      <div class="content" data-aos="zoom-out-left">
-        <h2>
-          We bring your <span class="bold">ideas</span> to life<span
-            class="orange"
-            >.</span
-          >
-        </h2>
-        <p>Great ideas, beautifully executed & commercially sound.</p>
-      </div>
-    </section>
-    <section id="about">
-      <div class="content">
-        <h2 data-aos="zoom-out-left">About Me</h2>
-        <div class="about-container" data-aos="zoom-out-left">
-          <div class="about-container-left">
-            <p>
-              I'm a software developer and entrepreneur, running Rider Infinity.
-              With years of experience in coding and design, I specialize in
-              creating user-friendly software solutions that simplify complex
-              tasks. Let's build something great together.
-            </p>
-            <h3>My Expertise</h3>
-            <ul>
-              <li>C++ Programming</li>
-              <li>Android Development</li>
-              <li>Web Development</li>
+<!-- <section class="promo" data-aos="zoom-out-left">
+<div class="content" data-aos="zoom-out-left">
+<h2>
+We bring your <span class="bold">ideas</span> to life<span
+class="orange"
+>.</span
+>
+</h2>
+<p>Great ideas, beautifully executed & commercially sound.</p>
+</div>
+</section> -->
+<section id="education">
+<div class="education-container">
+<h2 data-aos="zoom-out-down" class="education-title">My Education</h2>
+<p data-aos="zoom-out-down" class="education-subtitle">Education Is Not The Learning Of Facts, But The Training Of The Mind To Think.</p>
+<div class="education-card" data-aos="zoom-in-up">
+<div class="education-card-image">
+<img src="assets/images/vit-vellore.png" alt="VIT Vellore Campus">
+</div>
+<div class="education-card-content">
+<h3>Bachelor Of Engineering In Information Technology</h3>
+<p class="university">
+<a href="https://vit.ac.in/" target="_blank" class="university-link">VIT Vellore</a>
+</p>
+<p class="duration">2021-2025 | Pursuing</p>
+</div>
+</div>
+</div>
+</section>
+<!-- <section id="about">
+<div class="content">
+<h2 data-aos="zoom-out-left">About Me</h2>
+<div class="about-container" data-aos="zoom-out-left">
+<div class="about-container-left">
+<p>
+I'm a passionate software developer with expertise in web development and backend technologies.
+Currently pursuing a Bachelor of Technology in Information Technology at VIT Vellore,
+I have hands-on experience in creating efficient software solutions, optimizing systems, and delivering impactful projects.
+Let's collaborate to create something innovative and exceptional.
+</p>
+<h3>My Expertise</h3>
+<ul>
+<li>Web Development (HTML, CSS, JavaScript, ReactJS, Node.js)</li>
+
+  <li>Backend Development with MongoDB and Express.js</li>
+  <li>Programming in C, C++, and Java</li>
             </ul>
             <p>
-              Equipped with a versatile skillset and a passion for delivering
-              exceptional work, I am the go-to professional for tackling any
-              project with creativity, expertise, and a commitment to success.
+              With a solid foundation in computer science, a portfolio of successful projects,
+  and a commitment to delivering quality results, I bring creativity, technical expertise,
+  and a results-oriented mindset to every project I undertake.
             </p>
             <h4>Hiring</h4>
             <p>
-              Coupling my readiness for work with a proven track record of
-              delivering outstanding results, I am the skilled professional you
-              can rely on to get the job done efficiently, effectively, and to
-              the highest possible standards.
+              Combining my technical acumen with a proven track record in problem-solving and project delivery,
+  I am ready to contribute to dynamic teams and tackle challenging projects efficiently and effectively.
+  Let's bring your ideas to life with cutting-edge technology and innovation..
             </p>
           </div>
           <div class="about-container-right">
@@ -229,270 +259,307 @@ fade-down-left
           </div>
         </div>
       </div>
-    </section>
-    <!-- #about -->
-    <section id="skill">
-      <div class="content skill--content">
-        <div class="left" data-aos="zoom-in-right">
-          <h2>My skills &amp; expertise</h2>
+    </section> -->
+<section id="about">
+  <div class="content">
+    <h2 data-aos="zoom-out-left">About Me</h2>
+    <div class="about-container" data-aos="zoom-out-left">
+      <div class="about-container-left">
+        <div class="about-text">
+          <h3>I'm Shobhit</h3>
+          <p class="designation">Full Stack Developer</p>
           <p>
-            I possess a unique combination of skills and expertise that enables
-            me to tackle complex challenges and develop effective solutions that
-            meet the needs of businesses and users alike.
+            I am Shobhit Tomar, a final-year Information Technology student at VIT Vellore with a CGPA of 8.0/10. As a passionate web developer, I specialize in creating interactive and responsive web applications using technologies like ReactJS, MongoDB, NodeJS, and JavaScript. My experience includes internships at Hathway Cable and Bharat Intern, where I optimized IT operations and crafted user-friendly web solutions. I thrive on solving complex problems, evident from my hackathon participation and innovative projects like a Resume Builder and a fitness platform. With proficiency in C, C++, Java, and MySQL, I aim to contribute to impactful software solutions.
           </p>
-        </div>
-        <div class="right">
-          <div class="item" data-aos="zoom-out-left">
-            <img src="assets/images/android.png" alt="Photoshop" />
-            <h3>Android Development</h3>
-            <p>
-              With years of experience in the field, I have successfully
-              delivered high-quality Android applications with intuitive user
-              interfaces, seamless functionality, and optimal performance.
-            </p>
-          </div>
-          <div class="item" data-aos="zoom-out-left">
-            <img src="assets/images/c-.png" alt="Illustrator" />
-            <h3>C++ Programming</h3>
-            <p>
-              As an expert in C++, I possess a deep understanding of the
-              language's syntax, structure, and core concepts, allowing me to
-              write efficient and effective code.
-            </p>
-          </div>
-          <div class="item" data-aos="zoom-out-left">
-            <img src="assets/images/internet.png" alt="InDesign" />
-            <h3>Web Development</h3>
-            <p>
-              With years of experience in the field, I have successfully
-              delivered high-quality web solutions with intuitive user
-              interfaces, seamless functionality, and optimal performance.
-            </p>
-          </div>
+          <p class="email"><strong>Email</strong> : <a href="mailto:shobhittomar1711@gmail.com">shobhittomar1711@gmail.com</a></p>
+          <p class="place"><strong>Place</strong> : Vellore, India</p>
+          <a href="Shobhit_Resume.pdf" class="resume-button">Resume ></a>
         </div>
       </div>
-    </section>
-    <!-- #skill -->
-    <section id="service">
-      <h2 data-aos="zoom-in-right">Services I offer</h2>
-      <div class="content service--content" data-aos="zoom-out-left">
-        <div class="item" data-aos="zoom-out-left">
-          <h3 data-aos="zoom-out-left">Mobile Application Development</h3>
+      <div class="about-container-right">
+        <div class="image-container">
           <img
-            data-aos="zoom-out-left"
-            src="assets/images/application.png"
-            alt="Logo design"
+            src="assets/images/profile.jpg"
+            alt="Gaurav - Headshot"
           />
-          <p data-aos="zoom-out-left">
-            With a strong background in developing high-quality mobile
-            applications, I am equipped to design and deliver innovative and
-            intuitive Android apps that exceed your expectations.
-          </p>
-          <a data-aos="zoom-out-left" href="#contact">Hire Me</a>
         </div>
-        <!-- .item -->
-        <div class="item" data-aos="zoom-out-left">
-          <h3 data-aos="zoom-out-left">Web Development</h3>
-          <img
-            data-aos="zoom-out-left"
-            src="assets/images/app-development.png"
-            alt="Packaging design"
-          />
-          <p data-aos="zoom-out-left">
-            With a focus on delivering quality results, I am experienced in
-            designing and developing websites that are optimized for
-            performance, accessibility, and user experience.
-          </p>
-          <a data-aos="zoom-out-left" href="#contact">Hire Me</a>
-        </div>
-        <!-- .item -->
-        <div class="item" data-aos="zoom-out-left">
-          <h3 data-aos="zoom-out-left">Complex Programs</h3>
-          <img
-            data-aos="zoom-out-left"
-            src="assets/images/software.png"
-            alt="3D image manipulation"
-          />
-          <p data-aos="zoom-out-left">
-            With a strong foundation in programming languages and software
-            development frameworks, I am equipped to design and develop software
-            that meets the unique needs of businesses and users alike.
-          </p>
-          <a data-aos="zoom-out-left" href="#contact">Hire Me</a>
-        </div>
-        <!-- .item -->
       </div>
-    </section>
-    <!-- #service -->
-    <section id="portfolio">
-      <h2 class="center" data-aos="zoom-in-right">
-        Portfolio -My past work samples
-      </h2>
-      <div class="content portfolio--content" data-aos="zoom-out-left">
-        <div class="item1" id="particular_portfolio">
-          <!-- <h3 class="lastone">Lastone</h3> -->
-          <img src="assets/images/lastone.png" alt="logo design" />
-          <div class="layer">
-            <h3 class="lastone">LASTONE</h3>
-          </div>
-        </div>
-        <!-- <div class="item">
-        <h3>Project Name</h3>
-        <img src="assets/images/project-two.jpg" alt="logo design"> -->
-        <!-- </div>
-      <div class="item">
-        <h3>Project Name</h3>
-        <img src="assets/images/project-three.png" alt="logo design">
-      </div>
-      <div class="item">
-        <h3>Project Name</h3>
-        <img src="assets/images/project-four.jpg" alt="logo design">
-      </div>
-      <div class="item">
-        <h3>Project Name</h3>
-        <img src="assets/images/project-five.jpg" alt="logo design">
-      </div>
-      <div class="item">
-        <h3>Project Name</h3>
-        <img src="assets/images/project-six.jpg" alt="logo design">
-      </div> -->
-      </div>
-    </section>
-    <!-- portfolio -->
-
-    <section id="blog">
-      <h2 data-aos="zoom-in-right">My Latest Project</h2>
-      <div class="content blog--content" data-aos="zoom-out-left">
-        <p class="toshit">
-          Check out my latest articles and insights on my blogging website:
-        </p>
-        <a href="https://www.ridescom.com/" target="_blank">Visit My Blog</a>
-      </div>
-    </section>
-    
-    <!-- testimonial -->
-    <section id="contact">
-      <div class="content" data-aos="slide-up">
-        <h2 class="center">Contact Me</h2>
-        <p class="center contact-detail">
-          We would like to hear from you if you have any concern or any type of
-          query related to our work and profession.<br />
-          <br /><br />Note You can also mail me if you want me to do a project
-          for you it may be anything from the services which I offered in this
-          website.
-        </p>
-        <address>
-          <p>
-            Email Me:
-            <a href="mailto:shobhittomar1711@gmail.com"
-              >shobhittomar1711@gmail.com</a
-            >
-          </p>
-        </address>
-      </div>
-    </section>
-    <section class="contactus">
-      <h1 class="text-center">Contact Us</h1>
-      <div class="form">
-        <form action="https://formspree.io/f/xqkoddal" method="POST">
-          <input
-            class="form-input"
-            type="text"
-            name="name"
-            id="name"
-            placeholder="Enter Your name"
-          />
-          <input
-            class="form-input"
-            type="text"
-            name="phone"
-            id="phone"
-            placeholder="Enter Your Phone"
-          />
-          <input
-            class="form-input"
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Enter Your email"
-          />
-          <textarea
-            class="form-input"
-            name="text"
-            id="text"
-            cols="30"
-            rows="5"
-            placeholder="Ellaborate your concern"
-          ></textarea>
-          <div class="contro">
-            <button class="button-68" type="submit">Send</button>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <div class="social-share">
-      <a
-        href="https://github.com/chaseshobhit"
-        target="_blank"
-        ><img src="assets/svg/githublogo.png" alt="share on facebook"
-      /></a>
-      <a href="https://www.linkedin.com/in/chaseshobhit/" target="_blank"
-        ><img src="assets/svg/linkedinlogo.webp" alt="share on twitter"
-      /></a>
-    
     </div>
-    <footer class="site-footer">
-      <div class="content site-footer--content">
-        <div class="footer-left">
-          <img src="assets/images/logo.png" alt="logo" />
-          <p>
-            I'm a software developer and entrepreneur with a passion for
-            crafting beautiful and intuitive digital experiences. With a
-            background in coding, design, and project management, I bring a
-            unique perspective to every project, and am committed to
-            collaborating with clients and stakeholders to create solutions that
-            meet their specific needs and goals. I'm dedicated to lifelong
-            learning and am always seeking out new challenges and opportunities
-            to grow, and believe that every challenge presents an opportunity to
-            learn and improve. Let's work together to build something great!
-          </p>
-        </div>
-        <div class="footer-right">
-          <address>
-            <p>
-              Email Me:
-              <a href="mailto:hello@shihabiiuc.com"
-                >shobhittomar1711@gmail.com</a
-              >
-            </p>
-          </address>
-        </div>
-      </div>
-      <div class="copyright-notice">
+  </div>
+</section>
+<!-- #about -->
+<section id="skill">
+  <div class="content skill--content">
+    <div class="left" data-aos="zoom-in-right">
+      <h2>My skills & expertise</h2>
+      <p>
+        I possess a diverse skill set, ranging from front-end and back-end development
+        to programming and data handling. My focus is on developing scalable and efficient solutions
+        that meet user and business needs.
+      </p>
+    </div>
+    <div class="right">
+      <div class="item" data-aos="zoom-out-left">
+        <img src="assets/images/android.png" alt="Photoshop" />
+        <h3>Backend Development</h3>
         <p>
-          &copy; <time datetime="2023">2023,</time> All rights reserved by Rider
-          Infinity
+          Skilled in Node.js, Express.js, and MongoDB, I build secure and high-performance backend systems
+      that ensure seamless functionality and scalability for web applications.
+    </p>
+      </div>
+      <div class="item" data-aos="zoom-out-left">
+        <img src="assets/images/c-.png" alt="Illustrator" />
+        <h3>C++ Programming</h3>
+        <p>
+          With a strong command of C++ and an in-depth understanding of its core concepts,
+      I develop efficient, robust, and scalable applications to solve complex problems.
         </p>
       </div>
-    </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({});
-      AOS.refresh();
-    </script>
-    <script src="js/script.js"></script>
-    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
-    <script src="app.js"></script>
-    <!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <div class="item" data-aos="zoom-out-left">
+        <img src="assets/images/internet.png" alt="InDesign" />
+        <h3>Web Development</h3>
+        <p>
+          With years of experience in the field, I have successfully
+          delivered high-quality web solutions with intuitive user
+          interfaces, seamless functionality, and optimal performance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- #skill -->
+<section id="service">
+  <h2 data-aos="zoom-in-right">Services I offer</h2>
+  <div class="content service--content" data-aos="zoom-out-left">
+    <div class="item" data-aos="zoom-out-left">
+      <h3 data-aos="zoom-out-left">Mobile Application Development</h3>
+      <img
+        data-aos="zoom-out-left"
+        src="assets/images/application.png"
+        alt="Logo design"
+      />
+      <p data-aos="zoom-out-left">
+        With a strong background in developing high-quality mobile
+        applications, I am equipped to design and deliver innovative and
+        intuitive Android apps that exceed your expectations.
+      </p>
+      <a data-aos="zoom-out-left" href="#contact">Hire Me</a>
+    </div>
+    <!-- .item -->
+    <div class="item" data-aos="zoom-out-left">
+      <h3 data-aos="zoom-out-left">Web Development</h3>
+      <img
+        data-aos="zoom-out-left"
+        src="assets/images/app-development.png"
+        alt="Packaging design"
+      />
+      <p data-aos="zoom-out-left">
+        With a focus on delivering quality results, I am experienced in
+        designing and developing websites that are optimized for
+        performance, accessibility, and user experience.
+      </p>
+      <a data-aos="zoom-out-left" href="#contact">Hire Me</a>
+    </div>
+    <!-- .item -->
+    <div class="item" data-aos="zoom-out-left">
+      <h3 data-aos="zoom-out-left">Complex Programs</h3>
+      <img
+        data-aos="zoom-out-left"
+        src="assets/images/software.png"
+        alt="3D image manipulation"
+      />
+      <p data-aos="zoom-out-left">
+        With a strong foundation in programming languages and software
+        development frameworks, I am equipped to design and develop software
+        that meets the unique needs of businesses and users alike.
+      </p>
+      <a data-aos="zoom-out-left" href="#contact">Hire Me</a>
+    </div>
+    <!-- .item -->
+  </div>
+</section>
+<!-- #service -->
+<section id="portfolio">
+  <h2 class="center" data-aos="zoom-in-right">
+    PROJECTS
+  </h2>
+  <div class="content portfolio--content">
+    <div class="portfolio-item" data-aos="zoom-out-left">
+      <img src="assets/images/image.png" alt="JTT Fitness" />
+      <div class="layer">
+        <!-- <h3>JTT Fitness</h3> -->
+        <p>JTT FITNESS is a user-friendly web platform designed to enhance fitness journeys by providing tools for activity tracking, fitness tips, and reward systems. It features an interactive interface with sections like Home, Store, and Team, encouraging users to stay active and achieve their health goals  .</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-aos="zoom-out-left">
+      <img src="assets/images/resume_builder.png" alt="Resume Builder" />
+      <div class="layer">
+        <!-- <h3>Resume Builder</h3> -->
+        <p>The Resume Builder is a web app that allows users to create professional, LaTeX-style resumes within minutes. It features customizable sections, PDF export, LaTeX code generation, and secure authentication, built using ReactJS, MongoDB, ExpressJS, and NodeJS.</p>
+      </div>
+    </div>
+    <div class="portfolio-item" data-aos="zoom-out-left">
+      <img src="assets/images/textutils.png" alt="textutils" />
+      <div class="layer">
+        <!-- <h3>Textutils</h3> -->
+        <p>
+          A versatile text utility platform built with React.js and Bootstrap, featuring case conversion, word/character count, reading time estimation, live text preview, and a dark mode for enhanced usability. It combines functionality with a user-friendly design for an efficient text manipulation experience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- portfolio -->
+
+<!-- <section id="blog">
+  <h2 data-aos="zoom-in-right">My Latest Project</h2>
+  <div class="content blog--content" data-aos="zoom-out-left">
+    <p class="toshit">
+      Check out my latest articles and insights on my blogging website:
+    </p>
+    <a href="https://www.ridescom.com/" target="_blank">Visit My Blog</a>
+  </div>
+</section> -->
+
+<!-- testimonial -->
+<section id="contact">
+  <div class="content" data-aos="slide-up">
+    <h2 class="center">Contact Me</h2>
+    <p class="center contact-detail">
+      We would like to hear from you if you have any concern or any type of
+      query related to our work and profession.<br />
+      <br /><br />Note You can also mail me if you want me to do a project
+      for you it may be anything from the services which I offered in this
+      website.
+    </p>
+    <address>
+      <p>
+        Email Me:
+        <a href="mailto:shobhittomar1711@gmail.com"
+          >shobhittomar1711@gmail.com</a
+        >
+      </p>
+    </address>
+  </div>
+</section>
+<section class="contactus">
+  <h1 class="text-center">Contact Us</h1>
+  <div class="form">
+    <form action="https://formspree.io/f/xqkoddal" method="POST">
+      <input
+        class="form-input"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter Your name"
+      />
+      <input
+        class="form-input"
+        type="text"
+        name="phone"
+        id="phone"
+        placeholder="Enter Your Phone"
+      />
+      <input
+        class="form-input"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter Your email"
+      />
+      <textarea
+        class="form-input"
+        name="text"
+        id="text"
+        cols="30"
+        rows="5"
+        placeholder="Ellaborate your concern"
+      ></textarea>
+      <div class="contro">
+        <button class="button-68" type="submit">Send</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<div class="social-share">
+  <a
+    href="https://github.com/chaseshobhit"
+    target="_blank"
+    ><img src="assets/svg/githublogo.png" alt="share on facebook"
+  /></a>
+  <a href="https://www.linkedin.com/in/chaseshobhit/" target="_blank"
+    ><img src="assets/svg/linkedinlogo.webp" alt="share on twitter"
+  /></a>
+
+</div>
+<footer class="site-footer">
+  <div class="content site-footer--content">
+    <div class="footer-left">
+      <img src="assets/images/logo.png" alt="logo" />
+      <p>
+ Use code with caution.
+I am Shobhit Tomar, a final-year Information Technology student at VIT Vellore with a CGPA of 8.0/10. As a passionate web developer, I specialize in creating interactive and responsive web applications using technologies like ReactJS, MongoDB, NodeJS, and JavaScript. My experience includes internships at Hathway Cable and Bharat Intern, where I optimized IT operations and crafted user-friendly web solutions. I thrive on solving complex problems, evident from my hackathon participation and innovative projects like a Resume Builder and a fitness platform. With proficiency in C, C++, Java, and MySQL, I aim to contribute to impactful software solutions.
+</p>
+</div>
+<div class="footer-right">
+<address>
+<p>
+Email Me:
+<a href="mailto:hello@shihabiiuc.com"
+>shobhittomar1711@gmail.com</a
+>
+</p>
+</address>
+</div>
+</div>
+<div class="copyright-notice">
+<p>
+© <time datetime="2024">2024,</time> All rights reserved by chaseshobhit
+</p>
+</div>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init({});
+AOS.refresh();
+</script>
+<script src="js/script.js"></script>
+<script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+<script src="app.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
 <script src="https://raw.githack.com/mburakerman/prognroll/master/src/prognroll.min.js"></script> -->
-    <script>
-      var typed = new Typed(".auto-type", {
-        strings: ["Developer", "Entrepreneur", "Coding"],
-        typeSpeed: 90,
-        backSpeed: 90,
-        loop: true,
-      });
-    </script>
+<script>
+  var typed = new Typed(".auto-type", {
+    strings: ["Web Developer", "Chess Player", "Coder"],
+    typeSpeed: 90,
+    backSpeed: 90,
+    loop: true,
+  });
+</script>
+ Use code with caution.
+<script>
+  const banner = document.querySelector('.banner');
+
+banner.addEventListener('mousemove', (e) => {
+    const circle = document.createElement('span');
+    circle.classList.add('cursor-effect'); // Add a class for styling
+
+    // Position the circle at the cursor's location relative to the banner
+    const rect = banner.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    circle.style.left = `${x}px`;
+    circle.style.top = `${y}px`;
+
+    // Add the circle to the banner
+    banner.appendChild(circle);
+
+    // Remove the circle after a short delay to create the fading effect
+    setTimeout(() => {
+        circle.remove();
+    }, 1000); // Adjust the duration for the fade effect
+});
+</script>
   </body>
 </html>
