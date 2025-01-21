@@ -5,7 +5,7 @@ canvas.height = canvas.offsetHeight;
 const ctx = canvas.getContext('2d');
 let dots = []; // Changed to let for re-assignment on resize
 const arrayColors = ['#eee', '#545454', '#596d91', '#bb5a68', '#696541'];
-const numberOfDots = 150; // Increased number of dots
+const numberOfDots = 200; // Increased number of dots
 
 function init() {
     dots = [];
