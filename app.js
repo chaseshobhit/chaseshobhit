@@ -86,3 +86,23 @@ window.addEventListener('resize', () => {
 
 init(); // Initialize dots
 animate(); // Start the animation loop
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.3
+    });
+
+    timelineItems.forEach(item => {
+        observer.observe(item);
+    });
+});
